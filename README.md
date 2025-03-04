@@ -8,7 +8,7 @@ Real-time processing with OpenCV
 Serial communication between Python & Arduino
 Automatic LED control based on detection
 
-1. Requirements
+1. Requirements:
 Hardware
 Arduino Mega 2560
 USB Cable (for Arduino)
@@ -20,7 +20,7 @@ Arduino IDE
 Visual Studio Code (recommended)
 Google Teachable Machine (for training model)
 
-2. Installation
+2. Installation:
 Step 1: Install Dependencies
 Run the following command in your terminal to install the required Python libraries:
 pip install opencv-python tensorflow numpy pyserial
@@ -37,7 +37,7 @@ Copy & paste the face_control.ino code.
 Select the Arduino Mega 2560 board.
 Upload the sketch to the board.
 
-3. Running the Project
+3. Running the Project:
 Start the Python Script
 Run the following command:
 python face_detection.py
@@ -45,7 +45,7 @@ Look at the webcam—if your face is detected, the LED turns ON.
 Move away or cover your face—the LED turns OFF.
 Press q to stop the program.
 
-6. Troubleshooting
+6. Troubleshooting:
 - LED not turning on?
 Ensure the Arduino is connected via USB and the correct COM port is set in Python.
 Try using a different USB cable or restarting the Arduino.
